@@ -1,0 +1,82 @@
+a{
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+ul{
+	margin: 0px;
+}
+
+
+li{
+	list-style: none;
+	padding: 5px;
+}
+li:hover{
+	background-color: pink;
+	font-weight: bold;
+}
+
+header{
+	text-align: center;
+}
+
+nav{
+	position: center;
+	background-color: violet;
+	
+}
+
+#top{
+	position: sticky;
+	top: 0px;
+	background-color: pink;
+	grid-area: header;
+}
+
+header h1{
+	display: inline;
+}
+
+body{
+	display: grid;
+	grid-template-areas:
+	"header header"
+	"main main"
+	"footer aside";
+	height: 100%;
+	margin: 0px;
+}
+
+
+
+main{
+	grid-area: main;
+}
+
+footer, aside{
+	position: sticky;
+	bottom: 0px;
+	background-color: pink;
+}
+
+footer{
+	grid-area: footer;
+}
+
+aside{
+	grid-area: aside;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.logo{
+	height: 50px;
+	width: 50px;
+}
+
