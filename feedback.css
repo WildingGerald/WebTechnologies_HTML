@@ -1,3 +1,6 @@
+body{
+    font-family: "Times New Roman";
+}
 header{
 	text-align: center;
 }
@@ -5,9 +8,36 @@ header{
 textarea{
 	width: 100%;
 }
+
 input{
 	border: 1px solid black;
 }
-p{
-	background-color: violet;
+
+fieldset{
+    padding: 15px;
 }
+legend{
+    background-color: pink;
+    border-radius: 5px;
+}
+
+table td:nth-child(n+2){
+    text-align: center;
+}
+
+.personalInfo{
+    width: 100%;
+}
+
+#sendButton{
+    background-color: green;
+    width: 100%;
+    font-size: larger;
+}
+
+@media screen and (max-width:400px){
+    table b, td{
+        font-size: small;
+    }
+}
+

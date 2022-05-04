@@ -11,78 +11,95 @@
             <h1>Website Feedback Form</h1>
         </header>
         <form action="main.html" method="get">
-            <p>Is this the first time you have visited the Website?</p>
-            <input type="radio" name="firstTime" id="yesFirst" value="true">
-            <label for="yesFirst">yes</label>
-            <input type="radio" name="firstTime" id="noFirst" value="false">
-            <label for="noFirst">no</label>
+            <fieldset>
+                <legend>Is this the first time you have visited the Website?</legend>
+                <input type="radio" name="firstTime" id="yesFirst" value="true">
+                <label for="yesFirst">yes</label>
+                <input type="radio" name="firstTime" id="noFirst" value="false">
+                <label for="noFirst">no</label>
+            </fieldset>
 
-            <p>What is the PRIMARY reason you came to the website?</p>
-            <textarea name="reason" id="reason" rows="5"></textarea>
+            <fieldset>
+                <legend>What is the PRIMARY reason you came to the website?</legend>
+                <textarea name="reason" id="reason" rows="5"></textarea>
+            </fieldset>
 
-            <p>Did you find what you needed?</p>
-            <input type="radio" name="find" id="yesFind" value="1">
-            <label for="yesFind">Yes, all of it</label>
-            <input type="radio" name="find" id="someFind" value="2">
-            <label for="someFind">Yes, some of it</label>
-            <input type="radio" name="find" id="noFind" value="3">
-            <label for="noFind">No, none of it</label>
+            <fieldset>
+                <legend>Did you find what you needed?</legend>
+                <input type="radio" name="find" id="yesFind" value="1">
+                <label for="yesFind">Yes, all of it</label>
+                <input type="radio" name="find" id="someFind" value="2">
+                <label for="someFind">Yes, some of it</label>
+                <input type="radio" name="find" id="noFind" value="3">
+                <label for="noFind">No, none of it</label>
+            </fieldset>
 
-            <p>If you did not find any or all of what you needed, please tell us what information you were looking for.</p>
-            <textarea name="lookingFor" id="lookingFor" rows="5"></textarea>
+            <fieldset>
+                <legend>If you did not find any or all of what you needed, please tell us what information you were looking for.</legend>
+                <textarea name="lookingFor" id="lookingFor" rows="5"></textarea>
+            </fieldset>
 
-            <p>Please tell us how easy it is to find information on the site.</p>
-            <input type="radio" name="findDifficulty" id="veryEasy" value="1">
-            <label for="veryEasy">Very easy</label>
-            <input type="radio" name="findDifficulty" id="easy" value="2">
-            <label for="easy">Easy</label>
-            <input type="radio" name="findDifficulty" id="average" value="3">
-            <label for="average">Average</label>
-            <input type="radio" name="findDifficulty" id="diffcult" value="4">
-            <label for="diffcult">Difficult</label>
-            <input type="radio" name="findDifficulty" id="veryDifficult" value="5">
-            <label for="veryDifficult">Very Difficult</label>
+            <fieldset>
+                <legend>Please tell us how easy it is to find information on the site.</legend>
+                <input type="radio" name="findDifficulty" id="veryEasy" value="1">
+                <label for="veryEasy">Very easy</label>
+                <input type="radio" name="findDifficulty" id="easy" value="2">
+                <label for="easy">Easy</label>
+                <input type="radio" name="findDifficulty" id="average" value="3">
+                <label for="average">Average</label>
+                <input type="radio" name="findDifficulty" id="diffcult" value="4">
+                <label for="diffcult">Difficult</label>
+                <input type="radio" name="findDifficulty" id="veryDifficult" value="5">
+                <label for="veryDifficult">Very Difficult</label>
+            </fieldset>
 
-            <p>What is the overall impression of the site?</p>
-            <table>
-                <tr>
-                    <th></th>
-                    <th><b>Below expectation</b></th>
-                    <th><b>Meets expectation</b></th>
-                    <th><b>Exceeds expectation</b></th>
-                </tr>
-                <tr>
-                    <td>Professional</td>
-                    <td><input type="radio" name="professtional" value="3"></td>
-                    <td><input type="radio" name="professtional" value="2"></td>
-                    <td><input type="radio" name="professtional" value="1"></td>
-                </tr> 
-                <tr>
-                    <td>Informative</td>
-                    <td><input type="radio" name="informative" value="3"></td>
-                    <td><input type="radio" name="informative" value="2"></td>
-                    <td><input type="radio" name="informative" value="1"></td>
-                </tr>
-                <tr>
-                    <td>Visually Pleasing</td>
-                    <td><input type="radio" name="visual" value="3"></td>
-                    <td><input type="radio" name="visual" value="2"></td>
-                    <td><input type="radio" name="visual" value="1"></td>
-                </tr>
-            </table>
-            <p>Please add any comments you have for improving the website. We welcome suggestions on specific areas for improvements, features you would like to see added to the site, examples of what you consider good websites.</p>
-            <textarea name="recommendations" rows="5"></textarea>
+            <fieldset>
+                <legend>What is the overall impression of the site?</legend>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th><b>Below expectation</b></th>
+                        <th><b>Meets expectation</b></th>
+                        <th><b>Exceeds expectation</b></th>
+                    </tr>
+                    <tr>
+                        <td>Professional</td>
+                        <td><input type="radio" name="professtional" value="3"></td>
+                        <td><input type="radio" name="professtional" value="2"></td>
+                        <td><input type="radio" name="professtional" value="1"></td>
+                    </tr> 
+                    <tr>
+                        <td>Informative</td>
+                        <td><input type="radio" name="informative" value="3"></td>
+                        <td><input type="radio" name="informative" value="2"></td>
+                        <td><input type="radio" name="informative" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>Visually Pleasing</td>
+                        <td><input type="radio" name="visual" value="3"></td>
+                        <td><input type="radio" name="visual" value="2"></td>
+                        <td><input type="radio" name="visual" value="1"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Please add any comments you have for improving the website. We welcome suggestions on specific areas for improvements, features you would like to see added to the site, examples of what you consider good websites.</legend>
+                <textarea name="recommendations" rows="5"></textarea>
+            </fieldset>
 
-            <p>We would like to know a little bit about you</p>
-            <p>
-                eMail: 
-                <input type="email" name="email" placeholder="user@example.com" required>
-                Your Homepage:
-                <input type="url" name="webpage" placeholder="http://www.example.com/">
-                Date of Birth:
-                <input type="date" name="birthDate">
-            </p>
-            <input type="submit" value="Submit">
+            <fieldset>
+                <legend>We would like to know a little bit about you</legend>
+                <p>
+                    eMail: 
+                    <input type="email" class="personalInfo" name="email" placeholder="user@example.com" required>
+                    Your Homepage:
+                    <input type="url" class="personalInfo" name="webpage" placeholder="http://www.example.com/">
+                    Date of Birth:
+                    <input type="date" class="personalInfo" name="birthDate">
+                </p>
+            </fieldset>
+            <input type="submit" id="sendButton" value="Submit">
         </form>
     </body>
 </html>
